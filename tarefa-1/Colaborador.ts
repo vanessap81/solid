@@ -1,7 +1,7 @@
 import { Cargos } from "./enum/cargos";
 
 export default class Colaborador {
-
+    
     public readonly nome: string;
     private _cargo: Cargos;
     private _saldo: number;
